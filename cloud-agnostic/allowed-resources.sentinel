@@ -7,7 +7,7 @@ import "tfconfig-functions" as config
 
 # List of allowed resources
 allowed_list = ["aws_instance", "azurerm_virtualmachine",
-            "google_compute_instance"]
+            "google_compute_instance","random_string","random_pet"]
 
 # Get all Resources
 allResources = config.find_all_resources()
