@@ -31,7 +31,7 @@ policy "allowed-provisioners" {
 
 policy "allowed-resources" {
     source = "./allowed-resources.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "limit-cost-and-percentage-increase" {
